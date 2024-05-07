@@ -48,18 +48,18 @@ void onDelete(String docID){
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-         backgroundColor: Colors.cyan,
+         backgroundColor: Colors.white,
          onPressed: () {openDialogBox();
          },
          child: Icon(Icons.add,
          ),
         ),
-     backgroundColor: Colors.cyan[200],
+     backgroundColor: Color.fromARGB(255, 162, 227, 212),
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.cyan[200],
         title: const Text(
-          'TO DO LIST', 
+          'My Journal', 
           style:TextStyle(
           fontWeight: FontWeight.bold,
         ),
